@@ -1,17 +1,45 @@
+
 div{
-    border:2px solid antiquewhite;
+    border:2px solid rgb(125, 154, 177);
+    gap:10px;
+    display: flex;
+    flex-flow: row;
+
+}
+body
+{
+    background-color:gainsboro;
+}
+a
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li
+{
+    padding: 10px;
+    border:1px dotted:#000;
+    border-top-left-radius:10px;
+}
+a:hover
+{
+    color:aqua;
+    border-color: brown;
+    border-radius: 10px;
+
+}
+a:focus{
+    color:beige;
 }
 .parent
 {
-    height: 300px;
-    border:2px solid cadetblue;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.child
-{
-    height: 100px;
-    width: 200px;
+    font-style: 'Timmes New Roman',Times, serif;
+} 
 
+.paara
+{
+    font-family: 'Timmes New Roman',Times, serif;
+}
+.paa
+{
+    font-family: 'Timmes New Roman',Times, serif;
 }
