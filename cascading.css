@@ -1,0 +1,17 @@
+div{
+    border:2px solid antiquewhite;
+}
+.parent
+{
+    height: 300px;
+    border:2px solid cadetblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.child
+{
+    height: 100px;
+    width: 200px;
+
+}
