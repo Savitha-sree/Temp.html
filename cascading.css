@@ -2,9 +2,7 @@
 div{
     border:2px solid rgb(125, 154, 177);
     gap:10px;
-    display: flex;
-    flex-flow: row;
-
+    display: grid;
 }
 body
 {
@@ -20,12 +18,12 @@ ul li
     border:1px dotted:#000;
     border-top-left-radius:10px;
 }
+img{
+    float:left;
+}
 a:hover
 {
     color:aqua;
-    border-color: brown;
-    border-radius: 10px;
-
 }
 a:focus{
     color:beige;
